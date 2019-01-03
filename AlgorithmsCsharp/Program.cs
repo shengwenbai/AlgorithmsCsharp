@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq.Expressions;
+using AlgorithmsCsharp.Algs;
+using AlgorithmsCsharp.DataStructures;
 
 namespace AlgorithmsCsharp
 {
@@ -6,7 +10,9 @@ namespace AlgorithmsCsharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Expression Evaluation.
+            string ss = Console.ReadLine();
+            Console.WriteLine(DijkstraExpEval.Evaluate(ss));
         }
     }
 }
